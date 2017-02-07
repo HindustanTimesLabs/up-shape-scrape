@@ -1,0 +1,17 @@
+{
+  "name": "up-districts-scrape",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "cheerio": "^0.22.0",
+    "togeojson": "^0.16.0",
+    "xmldom": "^0.1.27"
+  }
+}
