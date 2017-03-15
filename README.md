@@ -1,8 +1,8 @@
-#up-shape-scrape#
+# up-shape-scrape
 
 Scrape geographic data files of UP used by the Election Commission of India [on Shristi(GIS-UP)](http://gis.up.nic.in/srishti/election2017/).
 
-##Instructions##
+## Instructions
 1. **Install**
   - Run `npm install`
 2. **Scrape**
@@ -14,5 +14,5 @@ Scrape geographic data files of UP used by the Election Commission of India [on 
 4. **Convert**
   - Convert the merged KML file to GeoJSON by running `node merge.js`. It'll output to path `json/uttarpradesh.json`.
 
-##Note##
+## Note
 The final files are pretty big. You can significantly shrink the GeoJSON file without losing any of the borders' precision. A good tool for this is **mapshaper**, which has [a nice GUI](http://www.mapshaper.org/).
