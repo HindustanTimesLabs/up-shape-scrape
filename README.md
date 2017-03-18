@@ -12,7 +12,7 @@ Scrape geographic data files of UP used by the Election Commission of India [on 
 3. **Merge**
   - Each KML files contains information about one district / constituency. To merge them, run `merge.js`. It'll output to path `kml/uttarpradesh.kml`.
 4. **Convert**
-  - Convert the merged KML file to GeoJSON by running `node covert.js`. It'll output to path `json/uttarpradesh.json`.
+  - Convert the merged KML file to GeoJSON by running `node convert.js`. It'll output to path `json/uttarpradesh.json`.
 
 ## Note
 The final files are pretty big. You can significantly shrink the GeoJSON file without losing any of the borders' precision. A good tool for this is **mapshaper**, which has [a nice GUI](http://www.mapshaper.org/).
